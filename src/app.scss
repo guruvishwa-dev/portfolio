@@ -10,8 +10,8 @@ html{
 
 }
 body{
-    background-color: black;
-    color: lightgrey;
+    background-color: rgb(73, 8, 73);
+    color: green;
 }
 section{
     height: 100vh;
@@ -22,4 +22,19 @@ section{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.Personal-details{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
 }
